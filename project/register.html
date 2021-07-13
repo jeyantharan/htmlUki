@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login here</title>
+    <style >
+      .form{
+        padding-top:120px;
+      }
+      ul{
+
+        height:40px;
+        margin:auto;
+        background-color:black;
+        border:2px solid white;
+      }
+      li{
+        display:inline-block;
+        padding:10px;
+        font-weigt:bold;
+          padding-right:50px;
+      }
+      .nav{
+        text-align:center;
+      }
+
+
+      a:link{
+        color:white;
+      }
+    a:visited{
+      color:white;
+    }
+    a:active{
+      color:blue;
+    }
+    legend{
+      color:black;
+      font-size:30px;
+    }
+    fieldset{
+      border:2px solid black;
+    }
+    th a:link{
+      color:black;
+    }
+    th a:active{
+      color:blue;
+    }
+    </style>
+  </head>
+  <body bgcolor="mintblue" text="white">
+  <center>  <h1 style="color:black;">Touch & Learn</h1></center>
+<div class="nav">
+  <ul>
+    <a href="home.html" ><li>Home</li></a>
+    <a href="subjects.html" ><li>Subjects</li></a>
+    <a href="teachers.html" ><li>Teachers</li></a>
+
+    <a href="aboutus.html" ><li>About Us</li></a>
+    <a href="login.html" ><li>Login/Register</li></a>
+    <a href="feedback.html" > <li>Feedback</li></a>
+  </ul>
+  </div>
+  <div class="form">
+    <center>
+       <form  action="" method="post">
+         <fieldset style="width:300px">
+           <legend>Register Here</legend>
+
+         <table cellpadding="10px">
+
+           <tr>
+             <td>Name</td>
+             <td>:</td>
+             <td><input type="text" name="name" value="" required></td>
+           </tr>
+
+           <tr>
+             <td>Phone No</td>
+             <td>:</td>
+             <td><input type="number" name="phone" value=""required></td>
+           </tr>
+           <tr>
+             <td> D.O.B</td>
+             <td>:</td>
+             <td><input type="date" name="date" value=""required></td>
+           </tr>
+           <tr>
+             <td>School</td>
+             <td>:</td>
+             <td><input type="text" name="phone" value=""required></td>
+           </tr>
+           <tr>
+             <td>Grade</td>
+             <td>:</td>
+             <td>
+               <select  name="grade">
+                 <option>Select Grade</option>
+                 <option value="12" >Grade 12</option>
+                  <option value="13">Grade 13</option>
+                 </optgroup>
+
+               </select>
+             </td>
+           </tr>
+           <tr>
+             <td>User Name</td>
+             <td>:</td>
+             <td><input type="text" name="user" value=""required></td>
+           </tr>
+           <tr>
+             <td>Stream</td>
+             <td>:</td>
+             <td>
+               <input type="radio" name="Stream[]" value="maths">Maths
+               <input type="radio" name="Stream[]" value="bio">Bio
+               <input type="radio" name="Stream[]" value="com">Arts
+             </td>
+           </tr>
+           <tr>
+             <td>Create Password</td>
+             <td>:</td>
+             <td><input type="password" name="pass" value=""required></td>
+           </tr>
+           <tr>
+             <td></td>
+             <td></td>
+             <td><input type="submit" name="submit" value="Create"><input type="reset" name="reset" value="Clear"></td>
+           </tr>
+
+         </table>
+
+         </fieldset>
+       </form>
+    </center>
+  </div>
+  </body>
+</html>
